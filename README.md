@@ -31,8 +31,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/guess-the-image.git
-   cd guess-the-image
+   git clone https://github.com/Mindslate-Thinking-AI/image-classification.git
+   cd image-classification
 
 2. Install dependencies:
    "pip install -r requirements.txt"
