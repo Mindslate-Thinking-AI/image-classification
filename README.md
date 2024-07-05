@@ -14,6 +14,7 @@ Try it out: [Guess the Image](https://guess-the-image.onrender.com/)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Sample-Images](#sampleimages)
 
 ## Project Overview
 
@@ -48,18 +49,18 @@ Navigate to "http://localhost:8051" to view the application on the port.
 
 ## Usage
 
-1.Open the web application in your browser.
+1. Open the web application in your browser.
 
-2.Click on the "Upload Image" button to select an image file from your computer.
+2. Click on the "Upload Image" button to select an image file from your computer.
 
-3.Wait for the model to classify the image.
+3. Wait for the model to classify the image.
 
-4.View the prediction results displayed on the screen.
+4. View the prediction results displayed on the screen.
 
 ## Model Information
 
 Certainly. Here's the complete README.md content in one block for easy copying:
-markdownCopy# Guess the Image
+markdownCopy# Guess-the-Image
 
 Guess the Image is a web application that allows users to upload an image and get it classified using a machine learning model trained on the CIFAR-10 dataset.
 
@@ -93,29 +94,26 @@ To set up the project locally, follow these steps:
    git clone https://github.com/yourusername/guess-the-image.git
    cd guess-the-image
 
-Install dependencies:
-bashCopypip install -r requirements.txt
+2. Install dependencies:
+```bashCopy
+   pip install -r requirements.txt
 
-Download the pre-trained model:
+3. Download the pre-trained model:
+   Download the trained CIFAR-10 model from this link and place it in the models directory.
 
-Download the trained CIFAR-10 model from this link and place it in the models directory.
+4. Run the application:
+```bashCopy
+   python app.py
 
-
-Run the application:
-bashCopypython app.py
-
-Open your browser:
-
+5. Open your browser:
 Navigate to "https://guess-the-image.onrender.com/" to view the application.
 
+## Usage
 
-
-Usage
-
-Open the web application in your browser.
-Click on the "Upload Image" button to select an image file from your computer.
-Wait for the model to classify the image.
-View the prediction results displayed on the screen.
+1. Open the web application in your browser.
+2. Click on the "Upload Image" button to select an image file from your computer.
+3. Wait for the model to classify the image.
+4. View the prediction results displayed on the screen.
 
 ## Model Information
 The image classification model is trained on the CIFAR-10 dataset using PyTorch. The dataset contains the following classes only not for all:
@@ -149,12 +147,12 @@ Contributions are welcome! Please follow these steps to contribute:
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowkledgements
+## Acknowledgements
   • The CIFAR-10 dataset is provided by the Canadian Institute For Advanced Research.
 
   • This project was built using PyTorch and Flask
 
-## Sample Images
+## Sample-Images
 ![Screenshot (53)](https://github.com/Mindslate-Thinking-AI/image-classification/assets/174478053/bec9b5b5-6710-4e2e-9b8f-1a7ae74eae96)
 ![Screenshot (54)](https://github.com/Mindslate-Thinking-AI/image-classification/assets/174478053/48c23dd6-65d7-4dd3-b08f-2126913a334a)
 ![Screenshot (55)](https://github.com/Mindslate-Thinking-AI/image-classification/assets/174478053/c7276e46-84ff-4f9c-bd10-f486d892c94c)
