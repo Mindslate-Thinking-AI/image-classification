@@ -93,20 +93,23 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/guess-the-image.git
    cd guess-the-image
+   ```
 
 2. Install dependencies:
-```bashCopy
+   ```bashCopy
    pip install -r requirements.txt
+   ```
 
 3. Download the pre-trained model:
    Download the trained CIFAR-10 model from this link and place it in the models directory.
 
 4. Run the application:
-```bashCopy
+   ```bashCopy
    python app.py
+   ```
 
 5. Open your browser:
-Navigate to "https://guess-the-image.onrender.com/" to view the application.
+   Navigate to "https://guess-the-image.onrender.com/" to view the application.
 
 ## Usage
 
