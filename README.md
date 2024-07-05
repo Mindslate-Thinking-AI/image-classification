@@ -106,7 +106,7 @@ bashCopypython app.py
 
 Open your browser:
 
-Navigate to http://localhost:5000 to view the application.
+Navigate to "https://guess-the-image.onrender.com/" to view the application.
 
 
 
