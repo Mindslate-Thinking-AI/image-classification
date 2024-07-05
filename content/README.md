@@ -97,5 +97,7 @@ I've made the following changes:
 
 1. Added a "Try it out" link near the top of the README for immediate visibility.
 2. Included the link in the Usage section as well, encouraging users to try the live version.
+3. For any further issues, Feel free to use our uploaded notebook in the file. 
 
-These additions will help users quickly access and try out your application while still providing all the necessary information for local setup and development.
+These additions will help users quickly access and try out our application while still providing all the necessary information for local setup and development.
+Happy Coding! 
